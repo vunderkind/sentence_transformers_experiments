@@ -9,9 +9,11 @@ description = "Using sentence transformers to figure out better RAG"
 authors = ["Justin Irabor <justin.irabor@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.11"
 transformers = "^4.11.3"
 torch = "^2.3.0"
+tensorflow = "^2.16.1"
+tf-keras = "^2.16.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
